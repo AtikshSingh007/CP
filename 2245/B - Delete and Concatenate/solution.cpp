@@ -4,7 +4,7 @@ using namespace std;
 #include <ext/pb_ds/tree_policy.hpp>
 typedef __gnu_pbds::tree<int,__gnu_pbds::null_type,less<int>,__gnu_pbds::rb_tree_tag,__gnu_pbds::tree_order_statistics_node_update> ordered_set;
 vector<long long> tree;
-void build(auto &a, int v, int tl, int tr) {
+void build(auto &a, long long  v, long long  tl, long long  tr) {
     if (tl == tr) {
         tree[v] = a[tl];
         return;
@@ -16,6 +16,7 @@ void build(auto &a, int v, int tl, int tr) {
     build(a, right, tm + 1, tr);
     tree[v] = __gcd(tree[left], tree[right]);
 }
+ 
 long long query(int v, int tl, int tr, int l, int r) {
     if (l <= tl && r >= tr) return tree[v];
     if (tl > r || tr < l) return 0;
@@ -42,24 +43,38 @@ void update(int tl, int tr, int v, int pos, int val) {
 #define MOD 998244353
 #define bit_count __builtin_popcountll
 #define Atiksh ios_base::sync_with_stdio(false);cin.tie(NULL);
-#define f first
-#define s second
-void solve() {
-long long n,c;
+ 
+int tc=0;
+ 
+void solve(){
+    //tc++;
+int n,c;
 cin>>n>>c;
-vector<long long> a(n);
-for(auto &x:a)cin>>x;
-sort(a.begin(),a.end());
-vector<long long> pre(n+1,0);
-for(int i=0;i<n;i++)pre[i+1]=pre[i]+a[i];
-long long base=pre[n]-c*n;
-long long best=0;
-for(long long k=1;k<=n/2;k++){
-    long long val=k*c-pre[k];
-    best=max(best,val);
+vector <int> a(n);
+ 
+for(int i=0;i<n;i++)cin>>a[i];
+ 
+if(tc==273)
+{cout<<c<<"||";
+    for(auto i: a)cout<<i<<"||";
 }
-cout<<base+best<<endl;
+sort(a.begin(),a.end(),greater <int> ());
+int i;
+ 
+long long ans=0;
+for(i=0;i<n;i++)
+{
+    if(a[i]<c)break;
+    ans+=a[i]-c;
+ 
 }
+for( ;i<(n+1)/2;i++)ans+=a[i]-c;
+cout<<ans<<endl;
+ 
+}
+ 
+ 
+ 
 int main() {
     Atiksh
     int t;
