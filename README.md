@@ -6,16 +6,20 @@
 
 | Total Problems | Topics |
 |---|---|
-| 2 | 4 |
+| 3 | 8 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [bitmasks](#bitmasks) (1)
+- [brute force](#brute-force) (1)
+- [combinatorics](#combinatorics) (1)
 - [constructive algorithms](#constructive-algorithms) (1)
+- [data structures](#data-structures) (1)
 - [greedy](#greedy) (1)
-- [math](#math) (1)
+- [hashing](#hashing) (1)
+- [math](#math) (2)
 
 ---
 
@@ -25,11 +29,29 @@
 |---|---------|------------|----------|
 | 2245C | [MEXOR](https://codeforces.com/contest/2245/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2245/C%20-%20MEXOR/solution.cpp) |
 
+### brute force
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1735D | [Meta-set](https://codeforces.com/contest/1735/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/1735/D%20-%20Meta-set/solution.cpp) |
+
+### combinatorics
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1735D | [Meta-set](https://codeforces.com/contest/1735/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/1735/D%20-%20Meta-set/solution.cpp) |
+
 ### constructive algorithms
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 2245C | [MEXOR](https://codeforces.com/contest/2245/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2245/C%20-%20MEXOR/solution.cpp) |
+
+### data structures
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1735D | [Meta-set](https://codeforces.com/contest/1735/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/1735/D%20-%20Meta-set/solution.cpp) |
 
 ### greedy
 
@@ -37,10 +59,17 @@
 |---|---------|------------|----------|
 | 2245B | [Delete and Concatenate](https://codeforces.com/contest/2245/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2245/B%20-%20Delete%20and%20Concatenate/solution.cpp) |
 
+### hashing
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1735D | [Meta-set](https://codeforces.com/contest/1735/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/1735/D%20-%20Meta-set/solution.cpp) |
+
 ### math
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1735D | [Meta-set](https://codeforces.com/contest/1735/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/1735/D%20-%20Meta-set/solution.cpp) |
 | 2245C | [MEXOR](https://codeforces.com/contest/2245/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2245/C%20-%20MEXOR/solution.cpp) |
 
 ---
