@@ -6,12 +6,13 @@
 
 | Total Problems | Topics |
 |---|---|
-| 4 | 9 |
+| 5 | 10 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
+- [Uncategorized](#uncategorized) (1)
 - [bitmasks](#bitmasks) (2)
 - [brute force](#brute-force) (2)
 - [combinatorics](#combinatorics) (1)
@@ -23,6 +24,12 @@
 - [number theory](#number-theory) (1)
 
 ---
+
+### Uncategorized
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2250A | [Threshold Movement](https://codeforces.com/contest/2250/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2250/A%20-%20Threshold%20Movement/solution.cpp) |
 
 ### bitmasks
 
