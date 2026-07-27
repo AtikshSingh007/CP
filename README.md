@@ -6,13 +6,13 @@
 
 | Total Problems | Topics |
 |---|---|
-| 6 | 11 |
+| 7 | 11 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
-- [Uncategorized](#uncategorized) (2)
+- [Uncategorized](#uncategorized) (3)
 - [bitmasks](#bitmasks) (2)
 - [brute force](#brute-force) (2)
 - [combinatorics](#combinatorics) (1)
@@ -32,6 +32,7 @@
 |---|---------|------------|----------|
 | 2250A | [Threshold Movement](https://codeforces.com/contest/2250/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2250/A%20-%20Threshold%20Movement/solution.cpp) |
 | 2250B | [String Construction](https://codeforces.com/contest/2250/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2250/B%20-%20String%20Construction/solution.cpp) |
+| 2250C | [Rank Subsequence](https://codeforces.com/contest/2250/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2250/C%20-%20Rank%20Subsequence/solution.cpp) |
 
 ### bitmasks
 
