@@ -3,77 +3,74 @@ using namespace std;
 #include <ext/pb_ds/assoc_container.hpp>
 #include <ext/pb_ds/tree_policy.hpp>
 typedef __gnu_pbds::tree<int,__gnu_pbds::null_type,less<int>,__gnu_pbds::rb_tree_tag,__gnu_pbds::tree_order_statistics_node_update> ordered_set;
- 
 vector<long long> tree;
- 
-void build(auto &a, long long v, long long tl, long long tr) {
+void build(auto &a, long long  v, long long  tl, long long  tr) {
     if (tl == tr) {
         tree[v] = a[tl];
         return;
     }
-    int l = 2 * v + 1;
-    int r = 2 * v + 2;
-    int m = (tl + tr) / 2;
-    build(a, l, tl, m);
-    build(a, r, m + 1, tr);
-    tree[v] = __gcd(tree[l], tree[r]);
+    int left = 2 * v + 1;
+    int right = 2 * v + 2;
+    int tm = (tl + tr) / 2;
+    build(a, left, tl, tm);
+    build(a, right, tm + 1, tr);
+    tree[v] = __gcd(tree[left], tree[right]);
 }
  
-long long query(int v, int tl, int tr, int ql, int qr) {
-    if (ql <= tl && qr >= tr) return tree[v];
-    if (tl > qr || tr < ql) return 0;
-    int m = (tl + tr) / 2;
-    return __gcd(query(2 * v + 1, tl, m, ql, qr), query(2 * v + 2, m + 1, tr, ql, qr));
+long long query(int v, int tl, int tr, int l, int r) {
+    if (l <= tl && r >= tr) return tree[v];
+    if (tl > r || tr < l) return 0;
+    int tm = (tl + tr) / 2;
+    long long res_left = query(2 * v + 1, tl, tm, l, r);
+    long long res_right = query(2 * v + 2, tm + 1, tr, l, r);
+    return __gcd(res_left, res_right);
 }
- 
-void update(int tl, int tr, int v, int p, int val) {
+void update(int tl, int tr, int v, int pos, int val) {
     if (tl == tr) {
         tree[v] = val;
         return;
     }
-    int l = 2 * v + 1;
-    int r = 2 * v + 2;
-    int m = (tl + tr) / 2;
-    if (p <= m) update(tl, m, l, p, val);
-    else update(m + 1, tr, r, p, val);
-    tree[v] = __gcd(tree[l], tree[r]);
+    int left = 2 * v + 1;
+    int right = 2 * v + 2;
+    int tm = (tl + tr) / 2;
+    if (pos <= tm) {
+        update(tl, tm, left, pos, val);
+    } else {
+        update(tm + 1, tr, right, pos, val);
+    }
+    tree[v] = __gcd(tree[left], tree[right]);
 }
- 
 #define MOD 998244353
 #define bit_count __builtin_popcountll
 #define Atiksh ios_base::sync_with_stdio(false);cin.tie(NULL);
  
-void solve() {
-    int n;
-    cin >> n;
-    vector<int> a(n);
-    for (int i = 0; i < n; i++) cin >> a[i];
  
-    if (n % 2 != 0) {
-        cout << "NO
-";
-        return;
-    }
  
-    int mo = 2e9, me = -1;
  
-    for (int i = 0; i < n; i++) {
-        if (i % 2 == 0) mo = min(mo, a[i]);
-        else me = max(me, a[i]);
-    }
- 
-    if (me < mo - 1) cout << "YES
-";
-    else cout << "NO
-";
+void solve(){
+ int n;
+ cin>>n;
+ vector<int> a(n);
+ for(int i=0;i<n;i++)cin>>a[i];
+ int mx=1e9,mn=-1e9;
+ for(int i=1;i<n;i+=2)
+ {
+     mx=min(mx,a[i-1]);
+     mn=max(mn,a[i]);
+ }
+ if( (mx-mn)>1 && n%2==0)cout<<"YES"<<endl;
+ else cout<<"NO"<<endl;
 }
+ 
+ 
  
 int main() {
     Atiksh
     int t;
-    cin >> t;
-    while (t--) {
-        solve();
+    if (cin >> t) {
+        while (t--) {
+            solve();
+        }
     }
     return 0;
 }
