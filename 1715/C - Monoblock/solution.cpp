@@ -48,7 +48,7 @@ void update(int tl, int tr, int v, int pos, int val) {
  
  
 void solve(){
-int n,m;
+int n,m;int x;
 cin>>n>>m;
 vector <int> a(n);
 for(int i=0;i<n;i++)cin>>a[i];
