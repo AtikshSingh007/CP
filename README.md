@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 14 | 16 |
+| 15 | 16 |
 
 ---
 
@@ -18,14 +18,14 @@
 - [brute force](#brute-force) (3)
 - [combinatorics](#combinatorics) (2)
 - [constructive algorithms](#constructive-algorithms) (1)
-- [data structures](#data-structures) (4)
+- [data structures](#data-structures) (5)
 - [dfs and similar](#dfs-and-similar) (1)
-- [dp](#dp) (1)
+- [dp](#dp) (2)
 - [graphs](#graphs) (2)
-- [greedy](#greedy) (3)
+- [greedy](#greedy) (4)
 - [hashing](#hashing) (2)
 - [implementation](#implementation) (2)
-- [math](#math) (6)
+- [math](#math) (7)
 - [number theory](#number-theory) (1)
 - [shortest paths](#shortest-paths) (2)
 
@@ -80,6 +80,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1692H | [Gambling](https://codeforces.com/contest/1692/problem/H) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/1692/H%20-%20Gambling/solution.cpp) |
 | 1695C | [Zero Path](https://codeforces.com/contest/1695/problem/C) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/1695/C%20-%20Zero%20Path/solution.cpp) |
 | 1709D | [Rorororobot](https://codeforces.com/contest/1709/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/1709/D%20-%20Rorororobot/solution.cpp) |
 | 1715C | [Monoblock](https://codeforces.com/contest/1715/problem/C) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/1715/C%20-%20Monoblock/solution.cpp) |
@@ -95,6 +96,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1692H | [Gambling](https://codeforces.com/contest/1692/problem/H) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/1692/H%20-%20Gambling/solution.cpp) |
 | 1695C | [Zero Path](https://codeforces.com/contest/1695/problem/C) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/1695/C%20-%20Zero%20Path/solution.cpp) |
 
 ### graphs
@@ -108,6 +110,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1692H | [Gambling](https://codeforces.com/contest/1692/problem/H) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/1692/H%20-%20Gambling/solution.cpp) |
 | 1695C | [Zero Path](https://codeforces.com/contest/1695/problem/C) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/1695/C%20-%20Zero%20Path/solution.cpp) |
 | 1709D | [Rorororobot](https://codeforces.com/contest/1709/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/1709/D%20-%20Rorororobot/solution.cpp) |
 | 2245B | [Delete and Concatenate](https://codeforces.com/contest/2245/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2245/B%20-%20Delete%20and%20Concatenate/solution.cpp) |
@@ -130,6 +133,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1692H | [Gambling](https://codeforces.com/contest/1692/problem/H) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/1692/H%20-%20Gambling/solution.cpp) |
 | 1709D | [Rorororobot](https://codeforces.com/contest/1709/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/1709/D%20-%20Rorororobot/solution.cpp) |
 | 1715C | [Monoblock](https://codeforces.com/contest/1715/problem/C) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/1715/C%20-%20Monoblock/solution.cpp) |
 | 1731C | [Even Subarrays](https://codeforces.com/contest/1731/problem/C) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/1731/C%20-%20Even%20Subarrays/solution.cpp) |
