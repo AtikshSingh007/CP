@@ -1,59 +1,108 @@
-#include <iostream>
-#include <vector>
-#include <algorithm>
- 
+#include <bits/stdc++.h>
 using namespace std;
- 
-const int INF = 1e9;
- 
-int main() {
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
- 
-    int num_signs, total_dist, max_removed;
-    cin >> num_signs >> total_dist >> max_removed;
- 
-    vector<int> positions(num_signs + 1);
-    for (int i = 0; i < num_signs; ++i) {
-        cin >> positions[i];
+#include <ext/pb_ds/assoc_container.hpp>
+#include <ext/pb_ds/tree_policy.hpp>
+typedef __gnu_pbds::tree<int,__gnu_pbds::null_type,less<int>,__gnu_pbds::rb_tree_tag,__gnu_pbds::tree_order_statistics_node_update> ordered_set;
+vector<long long> tree;
+void build(auto &a, long long  v, long long  tl, long long  tr) {
+    if (tl == tr) {
+        tree[v] = a[tl];
+        return;
     }
-    positions[num_signs] = total_dist;
+    int left = 2 * v + 1;
+    int right = 2 * v + 2;
+    int tm = (tl + tr) / 2;
+    build(a, left, tl, tm);
+    build(a, right, tm + 1, tr);
+    tree[v] = __gcd(tree[left], tree[right]);
+}
  
-    vector<int> limits(num_signs);
-    for (int i = 0; i < num_signs; ++i) {
-        cin >> limits[i];
+long long query(int v, int tl, int tr, int l, int r) {
+    if (l <= tl && r >= tr) return tree[v];
+    if (tl > r || tr < l) return 0;
+    int tm = (tl + tr) / 2;
+    long long res_left = query(2 * v + 1, tl, tm, l, r);
+    long long res_right = query(2 * v + 2, tm + 1, tr, l, r);
+    return __gcd(res_left, res_right);
+}
+void update(int tl, int tr, int v, int pos, int val) {
+    if (tl == tr) {
+        tree[v] = val;
+        return;
     }
+    int left = 2 * v + 1;
+    int right = 2 * v + 2;
+    int tm = (tl + tr) / 2;
+    if (pos <= tm) {
+        update(tl, tm, left, pos, val);
+    } else {
+        update(tm + 1, tr, right, pos, val);
+    }
+    tree[v] = __gcd(tree[left], tree[right]);
+}
+#define MOD 998244353
+#define bit_count __builtin_popcountll
+#define Atiksh ios_base::sync_with_stdio(false);cin.tie(NULL);
+//vector <int> sqr;
  
-    vector<vector<int>> min_time_dp(num_signs + 1, vector<int>(max_removed + 1, INF));
+void solve(){
+int n,l,k ;
+cin>>n>>l>>k;
+vector<int> d(n),a(n);
+for(int i=0;i<n;i++)cin>>d[i];
+for(int i=0;i<n;i++)cin>>a[i];
  
-    min_time_dp[0][0] = 0;
+d.push_back(l);
  
-    for (int i = 0; i < num_signs; ++i) {
-        for (int j = 0; j <= max_removed; ++j) {
-            if (min_time_dp[i][j] == INF) continue;
+vector <vector<long long > > dp (n+1,vector <long long > (k+1,1e18));
+for(int i=0;i<=k;i++)dp[n][i]=0;
  
-            int removed_count = 0;
-            for (int l = i + 1; l <= num_signs; ++l) {
-                if (j + removed_count <= max_removed) {
-                    int segment_dist = positions[l] - positions[i];
-                    int segment_time = segment_dist * limits[i];
-                    min_time_dp[l][j + removed_count] = min(
-                        min_time_dp[l][j + removed_count],
-                        min_time_dp[i][j] + segment_time
-                    );
-                }
-                removed_count++;
-            }
+for(int i=n-1;i>=0;i--)
+{
+    for(int j=i+1;(j)<=n && (j)<=(i+k+1);j++)
+    {
+       // cout<<" next ";
+        for(int kk=0;kk<=k;kk++)
+        {
+        int cost=j-i-1;
+ 
+        if( (kk+cost)<=k)
+            dp[i][kk+cost]=min(dp[i][kk+cost],dp[j][kk]+(d[j]-d[i])*a[i] );
         }
     }
+}
  
-    int result = INF;
-    for (int j = 0; j <= max_removed; ++j) {
-        result = min(result, min_time_dp[num_signs][j]);
-    }
+/*for(int i=0;i<=n;i++){
+    for(int j=0;j<=k;j++)
+        cout<<dp[i][j]<<" next ";
+        cout<<endl;
+}*/
  
-    cout << result << "
-";
+ 
+ 
+long long ans=1e18;
+for(int i=0;i<=k;i++)ans=min(dp[0][i],ans);
+cout<<ans<<endl;
+ 
+ 
+ 
+ 
+ 
+}
+ 
+ 
+ 
+int main() {
+    Atiksh
+ 
+    //for(int i=0;i<=sqrt(1e6);i++)
+      //  sqr.push_back(i*i);
+    int t;
+    t=1;
+    //cin>>t;
+        while (t--) {
+            solve();
+        }
  
     return 0;
 }
