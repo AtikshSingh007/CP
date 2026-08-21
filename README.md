@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 21 | 18 |
+| 22 | 19 |
 
 ---
 
@@ -17,12 +17,13 @@
 - [bitmasks](#bitmasks) (2)
 - [brute force](#brute-force) (3)
 - [combinatorics](#combinatorics) (3)
-- [constructive algorithms](#constructive-algorithms) (1)
+- [constructive algorithms](#constructive-algorithms) (2)
 - [data structures](#data-structures) (6)
-- [dfs and similar](#dfs-and-similar) (1)
-- [dp](#dp) (4)
+- [dfs and similar](#dfs-and-similar) (2)
+- [dp](#dp) (5)
+- [dsu](#dsu) (1)
 - [geometry](#geometry) (1)
-- [graphs](#graphs) (3)
+- [graphs](#graphs) (4)
 - [greedy](#greedy) (5)
 - [hashing](#hashing) (2)
 - [implementation](#implementation) (3)
@@ -80,6 +81,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1594D | [The Number of Imposters](https://codeforces.com/contest/1594/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/1594/D%20-%20The%20Number%20of%20Imposters/solution.cpp) |
 | 2245C | [MEXOR](https://codeforces.com/contest/2245/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2245/C%20-%20MEXOR/solution.cpp) |
 
 ### data structures
@@ -97,16 +99,24 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1594D | [The Number of Imposters](https://codeforces.com/contest/1594/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/1594/D%20-%20The%20Number%20of%20Imposters/solution.cpp) |
 | 2014E | [Rendez-vous de Marian et Robin](https://codeforces.com/contest/2014/problem/E) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2014/E%20-%20Rendez-vous%20de%20Marian%20et%20Robin/solution.cpp) |
 
 ### dp
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1594D | [The Number of Imposters](https://codeforces.com/contest/1594/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/1594/D%20-%20The%20Number%20of%20Imposters/solution.cpp) |
 | 1625C | [Road Optimization](https://codeforces.com/contest/1625/problem/C) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/1625/C%20-%20Road%20Optimization/solution.cpp) |
 | 1692H | [Gambling](https://codeforces.com/contest/1692/problem/H) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/1692/H%20-%20Gambling/solution.cpp) |
 | 1695C | [Zero Path](https://codeforces.com/contest/1695/problem/C) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/1695/C%20-%20Zero%20Path/solution.cpp) |
 | 2248C | [Maximize the Score](https://codeforces.com/contest/2248/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2248/C%20-%20Maximize%20the%20Score/solution.cpp) |
+
+### dsu
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1594D | [The Number of Imposters](https://codeforces.com/contest/1594/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/1594/D%20-%20The%20Number%20of%20Imposters/solution.cpp) |
 
 ### geometry
 
@@ -118,6 +128,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1594D | [The Number of Imposters](https://codeforces.com/contest/1594/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/1594/D%20-%20The%20Number%20of%20Imposters/solution.cpp) |
 | 1690F | [Shifting String](https://codeforces.com/contest/1690/problem/F) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/1690/F%20-%20Shifting%20String/solution.cpp) |
 | 1695C | [Zero Path](https://codeforces.com/contest/1695/problem/C) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/1695/C%20-%20Zero%20Path/solution.cpp) |
 | 2014E | [Rendez-vous de Marian et Robin](https://codeforces.com/contest/2014/problem/E) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2014/E%20-%20Rendez-vous%20de%20Marian%20et%20Robin/solution.cpp) |
