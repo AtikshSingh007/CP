@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 23 | 20 |
+| 24 | 20 |
 
 ---
 
@@ -16,18 +16,18 @@
 - [binary search](#binary-search) (1)
 - [bitmasks](#bitmasks) (3)
 - [brute force](#brute-force) (3)
-- [combinatorics](#combinatorics) (4)
+- [combinatorics](#combinatorics) (5)
 - [constructive algorithms](#constructive-algorithms) (2)
 - [data structures](#data-structures) (6)
 - [dfs and similar](#dfs-and-similar) (2)
-- [dp](#dp) (6)
+- [dp](#dp) (7)
 - [dsu](#dsu) (1)
 - [geometry](#geometry) (1)
 - [graphs](#graphs) (4)
 - [greedy](#greedy) (5)
 - [hashing](#hashing) (2)
 - [implementation](#implementation) (3)
-- [math](#math) (10)
+- [math](#math) (11)
 - [matrices](#matrices) (1)
 - [number theory](#number-theory) (2)
 - [shortest paths](#shortest-paths) (2)
@@ -75,6 +75,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1528B | [Kavi on Pairing Duty](https://codeforces.com/contest/1528/problem/B) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/1528/B%20-%20Kavi%20on%20Pairing%20Duty/solution.cpp) |
 | 1557C | [Moamen and XOR](https://codeforces.com/contest/1557/problem/C) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/1557/C%20-%20Moamen%20and%20XOR/solution.cpp) |
 | 1598D | [Training Session](https://codeforces.com/contest/1598/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/1598/D%20-%20Training%20Session/solution.cpp) |
 | 1715C | [Monoblock](https://codeforces.com/contest/1715/problem/C) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/1715/C%20-%20Monoblock/solution.cpp) |
@@ -109,6 +110,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1528B | [Kavi on Pairing Duty](https://codeforces.com/contest/1528/problem/B) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/1528/B%20-%20Kavi%20on%20Pairing%20Duty/solution.cpp) |
 | 1557C | [Moamen and XOR](https://codeforces.com/contest/1557/problem/C) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/1557/C%20-%20Moamen%20and%20XOR/solution.cpp) |
 | 1594D | [The Number of Imposters](https://codeforces.com/contest/1594/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/1594/D%20-%20The%20Number%20of%20Imposters/solution.cpp) |
 | 1625C | [Road Optimization](https://codeforces.com/contest/1625/problem/C) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/1625/C%20-%20Road%20Optimization/solution.cpp) |
@@ -166,6 +168,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1528B | [Kavi on Pairing Duty](https://codeforces.com/contest/1528/problem/B) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/1528/B%20-%20Kavi%20on%20Pairing%20Duty/solution.cpp) |
 | 1557C | [Moamen and XOR](https://codeforces.com/contest/1557/problem/C) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/1557/C%20-%20Moamen%20and%20XOR/solution.cpp) |
 | 1598D | [Training Session](https://codeforces.com/contest/1598/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/1598/D%20-%20Training%20Session/solution.cpp) |
 | 1690F | [Shifting String](https://codeforces.com/contest/1690/problem/F) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/1690/F%20-%20Shifting%20String/solution.cpp) |
