@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 26 | 22 |
+| 27 | 22 |
 
 ---
 
@@ -27,12 +27,12 @@
 - [graphs](#graphs) (4)
 - [greedy](#greedy) (5)
 - [hashing](#hashing) (2)
-- [implementation](#implementation) (3)
+- [implementation](#implementation) (4)
 - [math](#math) (13)
 - [matrices](#matrices) (1)
 - [number theory](#number-theory) (2)
 - [shortest paths](#shortest-paths) (2)
-- [sortings](#sortings) (1)
+- [sortings](#sortings) (2)
 - [strings](#strings) (1)
 
 ---
@@ -172,6 +172,7 @@
 | 1598D | [Training Session](https://codeforces.com/contest/1598/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/1598/D%20-%20Training%20Session/solution.cpp) |
 | 1715C | [Monoblock](https://codeforces.com/contest/1715/problem/C) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/1715/C%20-%20Monoblock/solution.cpp) |
 | 2250A | [Threshold Movement](https://codeforces.com/contest/2250/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2250/A%20-%20Threshold%20Movement/solution.cpp) |
+| 2254A | [Riptide](https://codeforces.com/contest/2254/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2254/A%20-%20Riptide/solution.cpp) |
 
 ### math
 
@@ -215,6 +216,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 2254A | [Riptide](https://codeforces.com/contest/2254/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2254/A%20-%20Riptide/solution.cpp) |
 | 2256A | [Three Numbers on the Blackboard](https://codeforces.com/contest/2256/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2256/A%20-%20Three%20Numbers%20on%20the%20Blackboard/solution.cpp) |
 
 ### strings
