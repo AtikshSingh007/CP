@@ -6,13 +6,13 @@
 
 | Total Problems | Topics |
 |---|---|
-| 28 | 22 |
+| 29 | 22 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
-- [Uncategorized](#uncategorized) (10)
+- [Uncategorized](#uncategorized) (11)
 - [binary search](#binary-search) (1)
 - [bitmasks](#bitmasks) (3)
 - [brute force](#brute-force) (4)
@@ -51,6 +51,7 @@
 | 2257B | [Gigantomachy](https://codeforces.com/contest/2257/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2257/B%20-%20Gigantomachy/solution.cpp) |
 | 2257C | [Spying on the Beaver](https://codeforces.com/contest/2257/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2257/C%20-%20Spying%20on%20the%20Beaver/solution.cpp) |
 | 2259A | [Moo Language School](https://codeforces.com/contest/2259/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2259/A%20-%20Moo%20Language%20School/solution.cpp) |
+| 2259B | [Minus Two](https://codeforces.com/contest/2259/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2259/B%20-%20Minus%20Two/solution.cpp) |
 
 ### binary search
 
