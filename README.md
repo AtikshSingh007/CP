@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 34 | 23 |
+| 35 | 23 |
 
 ---
 
@@ -15,7 +15,7 @@
 - [2-sat](#2-sat) (1)
 - [Uncategorized](#uncategorized) (15)
 - [binary search](#binary-search) (1)
-- [bitmasks](#bitmasks) (3)
+- [bitmasks](#bitmasks) (4)
 - [brute force](#brute-force) (4)
 - [combinatorics](#combinatorics) (5)
 - [constructive algorithms](#constructive-algorithms) (4)
@@ -26,7 +26,7 @@
 - [games](#games) (1)
 - [geometry](#geometry) (1)
 - [graphs](#graphs) (4)
-- [greedy](#greedy) (7)
+- [greedy](#greedy) (8)
 - [hashing](#hashing) (2)
 - [implementation](#implementation) (4)
 - [math](#math) (13)
@@ -77,6 +77,7 @@
 | 1557C | [Moamen and XOR](https://codeforces.com/contest/1557/problem/C) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/1557/C%20-%20Moamen%20and%20XOR/solution.cpp) |
 | 1731C | [Even Subarrays](https://codeforces.com/contest/1731/problem/C) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/1731/C%20-%20Even%20Subarrays/solution.cpp) |
 | 2245C | [MEXOR](https://codeforces.com/contest/2245/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2245/C%20-%20MEXOR/solution.cpp) |
+| 2260C | [Maximize XOR, Minimize Operations](https://codeforces.com/contest/2260/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2260/C%20-%20Maximize%20XOR%2C%20Minimize%20Operations/solution.cpp) |
 
 ### brute force
 
@@ -174,6 +175,7 @@
 | 2248C | [Maximize the Score](https://codeforces.com/contest/2248/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2248/C%20-%20Maximize%20the%20Score/solution.cpp) |
 | 2259D | [MEX Multiset](https://codeforces.com/contest/2259/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2259/D%20-%20MEX%20Multiset/solution.cpp) |
 | 2259E | [Treasure Map Destruction (Constructive Version)](https://codeforces.com/contest/2259/problem/E) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2259/E%20-%20Treasure%20Map%20Destruction%20(Constructive%20Version)/solution.cpp) |
+| 2260C | [Maximize XOR, Minimize Operations](https://codeforces.com/contest/2260/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2260/C%20-%20Maximize%20XOR%2C%20Minimize%20Operations/solution.cpp) |
 
 ### hashing
 
