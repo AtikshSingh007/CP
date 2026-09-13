@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 36 | 23 |
+| 37 | 23 |
 
 ---
 
@@ -16,19 +16,19 @@
 - [Uncategorized](#uncategorized) (15)
 - [binary search](#binary-search) (1)
 - [bitmasks](#bitmasks) (4)
-- [brute force](#brute-force) (4)
+- [brute force](#brute-force) (5)
 - [combinatorics](#combinatorics) (5)
-- [constructive algorithms](#constructive-algorithms) (4)
+- [constructive algorithms](#constructive-algorithms) (5)
 - [data structures](#data-structures) (6)
-- [dfs and similar](#dfs-and-similar) (2)
-- [dp](#dp) (7)
+- [dfs and similar](#dfs-and-similar) (3)
+- [dp](#dp) (8)
 - [dsu](#dsu) (1)
 - [games](#games) (1)
 - [geometry](#geometry) (1)
 - [graphs](#graphs) (4)
 - [greedy](#greedy) (8)
 - [hashing](#hashing) (2)
-- [implementation](#implementation) (4)
+- [implementation](#implementation) (5)
 - [math](#math) (14)
 - [matrices](#matrices) (1)
 - [number theory](#number-theory) (2)
@@ -87,6 +87,7 @@
 | 1731C | [Even Subarrays](https://codeforces.com/contest/1731/problem/C) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/1731/C%20-%20Even%20Subarrays/solution.cpp) |
 | 1735D | [Meta-set](https://codeforces.com/contest/1735/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/1735/D%20-%20Meta-set/solution.cpp) |
 | 2258B1 | [Carrot Chopdown (Easy Version)](https://codeforces.com/contest/2258/problem/B1) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2258/B1%20-%20Carrot%20Chopdown%20(Easy%20Version)/solution.cpp) |
+| 2260D | [Signs of Prefix Sums](https://codeforces.com/contest/2260/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2260/D%20-%20Signs%20of%20Prefix%20Sums/solution.cpp) |
 
 ### combinatorics
 
@@ -106,6 +107,7 @@
 | 2245C | [MEXOR](https://codeforces.com/contest/2245/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2245/C%20-%20MEXOR/solution.cpp) |
 | 2259D | [MEX Multiset](https://codeforces.com/contest/2259/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2259/D%20-%20MEX%20Multiset/solution.cpp) |
 | 2259E | [Treasure Map Destruction (Constructive Version)](https://codeforces.com/contest/2259/problem/E) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2259/E%20-%20Treasure%20Map%20Destruction%20(Constructive%20Version)/solution.cpp) |
+| 2260D | [Signs of Prefix Sums](https://codeforces.com/contest/2260/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2260/D%20-%20Signs%20of%20Prefix%20Sums/solution.cpp) |
 
 ### data structures
 
@@ -124,6 +126,7 @@
 |---|---------|------------|----------|
 | 1594D | [The Number of Imposters](https://codeforces.com/contest/1594/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/1594/D%20-%20The%20Number%20of%20Imposters/solution.cpp) |
 | 2014E | [Rendez-vous de Marian et Robin](https://codeforces.com/contest/2014/problem/E) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2014/E%20-%20Rendez-vous%20de%20Marian%20et%20Robin/solution.cpp) |
+| 2260D | [Signs of Prefix Sums](https://codeforces.com/contest/2260/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2260/D%20-%20Signs%20of%20Prefix%20Sums/solution.cpp) |
 
 ### dp
 
@@ -136,6 +139,7 @@
 | 1692H | [Gambling](https://codeforces.com/contest/1692/problem/H) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/1692/H%20-%20Gambling/solution.cpp) |
 | 1695C | [Zero Path](https://codeforces.com/contest/1695/problem/C) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/1695/C%20-%20Zero%20Path/solution.cpp) |
 | 2248C | [Maximize the Score](https://codeforces.com/contest/2248/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2248/C%20-%20Maximize%20the%20Score/solution.cpp) |
+| 2260D | [Signs of Prefix Sums](https://codeforces.com/contest/2260/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2260/D%20-%20Signs%20of%20Prefix%20Sums/solution.cpp) |
 
 ### dsu
 
@@ -192,6 +196,7 @@
 | 1715C | [Monoblock](https://codeforces.com/contest/1715/problem/C) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/1715/C%20-%20Monoblock/solution.cpp) |
 | 2250A | [Threshold Movement](https://codeforces.com/contest/2250/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2250/A%20-%20Threshold%20Movement/solution.cpp) |
 | 2254A | [Riptide](https://codeforces.com/contest/2254/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2254/A%20-%20Riptide/solution.cpp) |
+| 2260D | [Signs of Prefix Sums](https://codeforces.com/contest/2260/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2260/D%20-%20Signs%20of%20Prefix%20Sums/solution.cpp) |
 
 ### math
 
