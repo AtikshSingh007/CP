@@ -1,0 +1,33 @@
+#include <bits/stdc++.h>
+using namespace std;
+#include <ext/pb_ds/assoc_container.hpp>
+#include <ext/pb_ds/tree_policy.hpp>
+typedef __gnu_pbds::tree<int,__gnu_pbds::null_type,less<int>,__gnu_pbds::rb_tree_tag,__gnu_pbds::tree_order_statistics_node_update> ordered_set;
+ 
+#define MOD 998244353
+#define bit_count __builtin_popcountll
+#define Atiksh ios_base::sync_with_stdio(false);cin.tie(NULL);
+ 
+void solve(){
+int n;
+cin>>n;
+n++;
+int c=0;
+for (int i=2;i*i<=n;i++)
+    if(n%i==0)c++;
+ 
+if(!c)cout<<"YES"<<endl;
+else cout<<"NO"<<endl;
+ 
+}
+ 
+int main() {
+    Atiksh
+    int t;
+    cin>>t;
+    while (t--) {
+        solve();
+    }
+ 
+    return 0;
+}
