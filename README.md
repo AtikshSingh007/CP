@@ -6,14 +6,14 @@
 
 | Total Problems | Topics |
 |---|---|
-| 46 | 24 |
+| 48 | 24 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [2-sat](#2-sat) (1)
-- [Uncategorized](#uncategorized) (18)
+- [Uncategorized](#uncategorized) (19)
 - [binary search](#binary-search) (1)
 - [bitmasks](#bitmasks) (5)
 - [brute force](#brute-force) (6)
@@ -26,10 +26,10 @@
 - [games](#games) (2)
 - [geometry](#geometry) (1)
 - [graphs](#graphs) (4)
-- [greedy](#greedy) (11)
+- [greedy](#greedy) (12)
 - [hashing](#hashing) (2)
 - [implementation](#implementation) (7)
-- [math](#math) (15)
+- [math](#math) (16)
 - [matrices](#matrices) (1)
 - [number theory](#number-theory) (3)
 - [shortest paths](#shortest-paths) (2)
@@ -64,6 +64,7 @@
 | 2259D | [MEX Multiset](https://codeforces.com/contest/2259/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2259/D%20-%20MEX%20Multiset/solution.cpp) |
 | 2260A | [Monocarp's Contest](https://codeforces.com/contest/2260/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2260/A%20-%20Monocarp's%20Contest/solution.cpp) |
 | 2260B | [Monocarp and Projects](https://codeforces.com/contest/2260/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2260/B%20-%20Monocarp%20and%20Projects/solution.cpp) |
+| 2261A | [Hey, It's Me, Souvlakity](https://codeforces.com/contest/2261/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2261/A%20-%20Hey%2C%20It's%20Me%2C%20Souvlakity/solution.cpp) |
 | 2267A | [Turn Into a Palindrome](https://codeforces.com/contest/2267/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2267/A%20-%20Turn%20Into%20a%20Palindrome/solution.cpp) |
 | 2267B | [Fashionable Array](https://codeforces.com/contest/2267/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2267/B%20-%20Fashionable%20Array/solution.cpp) |
 | 2267C | [GCD Treasury](https://codeforces.com/contest/2267/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2267/C%20-%20GCD%20Treasury/solution.cpp) |
@@ -191,6 +192,7 @@
 | 2259D | [MEX Multiset](https://codeforces.com/contest/2259/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2259/D%20-%20MEX%20Multiset/solution.cpp) |
 | 2259E | [Treasure Map Destruction (Constructive Version)](https://codeforces.com/contest/2259/problem/E) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2259/E%20-%20Treasure%20Map%20Destruction%20(Constructive%20Version)/solution.cpp) |
 | 2260C | [Maximize XOR, Minimize Operations](https://codeforces.com/contest/2260/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2260/C%20-%20Maximize%20XOR%2C%20Minimize%20Operations/solution.cpp) |
+| 2269A | [SauSaGe Bank](https://codeforces.com/contest/2269/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2269/A%20-%20SauSaGe%20Bank/solution.cpp) |
 
 ### hashing
 
@@ -230,6 +232,7 @@
 | 2256A | [Three Numbers on the Blackboard](https://codeforces.com/contest/2256/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2256/A%20-%20Three%20Numbers%20on%20the%20Blackboard/solution.cpp) |
 | 2258A | [Odd Eraser](https://codeforces.com/contest/2258/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2258/A%20-%20Odd%20Eraser/solution.cpp) |
 | 2258B1 | [Carrot Chopdown (Easy Version)](https://codeforces.com/contest/2258/problem/B1) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2258/B1%20-%20Carrot%20Chopdown%20(Easy%20Version)/solution.cpp) |
+| 2269A | [SauSaGe Bank](https://codeforces.com/contest/2269/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2269/A%20-%20SauSaGe%20Bank/solution.cpp) |
 
 ### matrices
 
