@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 56 | 24 |
+| 57 | 24 |
 
 ---
 
@@ -18,7 +18,7 @@
 - [bitmasks](#bitmasks) (5)
 - [brute force](#brute-force) (6)
 - [combinatorics](#combinatorics) (6)
-- [constructive algorithms](#constructive-algorithms) (5)
+- [constructive algorithms](#constructive-algorithms) (6)
 - [data structures](#data-structures) (8)
 - [dfs and similar](#dfs-and-similar) (3)
 - [dp](#dp) (8)
@@ -26,7 +26,7 @@
 - [games](#games) (2)
 - [geometry](#geometry) (1)
 - [graphs](#graphs) (4)
-- [greedy](#greedy) (13)
+- [greedy](#greedy) (14)
 - [hashing](#hashing) (2)
 - [implementation](#implementation) (9)
 - [math](#math) (19)
@@ -119,6 +119,7 @@
 | 2259D | [MEX Multiset](https://codeforces.com/contest/2259/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2259/D%20-%20MEX%20Multiset/solution.cpp) |
 | 2259E | [Treasure Map Destruction (Constructive Version)](https://codeforces.com/contest/2259/problem/E) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2259/E%20-%20Treasure%20Map%20Destruction%20(Constructive%20Version)/solution.cpp) |
 | 2260D | [Signs of Prefix Sums](https://codeforces.com/contest/2260/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2260/D%20-%20Signs%20of%20Prefix%20Sums/solution.cpp) |
+| 2278E | [Swap and Negate](https://codeforces.com/contest/2278/problem/E) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2278/E%20-%20Swap%20and%20Negate/solution.cpp) |
 
 ### data structures
 
@@ -199,6 +200,7 @@
 | 2260C | [Maximize XOR, Minimize Operations](https://codeforces.com/contest/2260/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2260/C%20-%20Maximize%20XOR%2C%20Minimize%20Operations/solution.cpp) |
 | 2269A | [SauSaGe Bank](https://codeforces.com/contest/2269/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2269/A%20-%20SauSaGe%20Bank/solution.cpp) |
 | 2276A | [Perfect Sandwiches](https://codeforces.com/contest/2276/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2276/A%20-%20Perfect%20Sandwiches/solution.cpp) |
+| 2278E | [Swap and Negate](https://codeforces.com/contest/2278/problem/E) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2278/E%20-%20Swap%20and%20Negate/solution.cpp) |
 
 ### hashing
 
