@@ -6,32 +6,32 @@
 
 | Total Problems | Topics |
 |---|---|
-| 57 | 24 |
+| 60 | 24 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [2-sat](#2-sat) (1)
-- [Uncategorized](#uncategorized) (22)
+- [Uncategorized](#uncategorized) (24)
 - [binary search](#binary-search) (1)
 - [bitmasks](#bitmasks) (5)
 - [brute force](#brute-force) (6)
 - [combinatorics](#combinatorics) (6)
-- [constructive algorithms](#constructive-algorithms) (6)
+- [constructive algorithms](#constructive-algorithms) (7)
 - [data structures](#data-structures) (8)
 - [dfs and similar](#dfs-and-similar) (3)
-- [dp](#dp) (8)
+- [dp](#dp) (9)
 - [dsu](#dsu) (1)
 - [games](#games) (2)
 - [geometry](#geometry) (1)
-- [graphs](#graphs) (4)
-- [greedy](#greedy) (14)
+- [graphs](#graphs) (5)
+- [greedy](#greedy) (15)
 - [hashing](#hashing) (2)
 - [implementation](#implementation) (9)
-- [math](#math) (19)
+- [math](#math) (20)
 - [matrices](#matrices) (1)
-- [number theory](#number-theory) (4)
+- [number theory](#number-theory) (5)
 - [shortest paths](#shortest-paths) (2)
 - [sortings](#sortings) (6)
 - [strings](#strings) (2)
@@ -71,6 +71,8 @@
 | 2267A | [Turn Into a Palindrome](https://codeforces.com/contest/2267/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2267/A%20-%20Turn%20Into%20a%20Palindrome/solution.cpp) |
 | 2267B | [Fashionable Array](https://codeforces.com/contest/2267/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2267/B%20-%20Fashionable%20Array/solution.cpp) |
 | 2267C | [GCD Treasury](https://codeforces.com/contest/2267/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2267/C%20-%20GCD%20Treasury/solution.cpp) |
+| 2290B | [Stubborn Pen](https://codeforces.com/contest/2290/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2290/B%20-%20Stubborn%20Pen/solution.cpp) |
+| 2290C | [Books on a Shelf](https://codeforces.com/contest/2290/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2290/C%20-%20Books%20on%20a%20Shelf/solution.cpp) |
 
 ### binary search
 
@@ -120,6 +122,7 @@
 | 2259E | [Treasure Map Destruction (Constructive Version)](https://codeforces.com/contest/2259/problem/E) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2259/E%20-%20Treasure%20Map%20Destruction%20(Constructive%20Version)/solution.cpp) |
 | 2260D | [Signs of Prefix Sums](https://codeforces.com/contest/2260/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2260/D%20-%20Signs%20of%20Prefix%20Sums/solution.cpp) |
 | 2278E | [Swap and Negate](https://codeforces.com/contest/2278/problem/E) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2278/E%20-%20Swap%20and%20Negate/solution.cpp) |
+| 2284C1 | [Disgusting + GCD (Constructive Version)](https://codeforces.com/contest/2284/problem/C1) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2284/C1%20-%20Disgusting%20%2B%20GCD%20(Constructive%20Version)/solution.cpp) |
 
 ### data structures
 
@@ -154,6 +157,7 @@
 | 1695C | [Zero Path](https://codeforces.com/contest/1695/problem/C) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/1695/C%20-%20Zero%20Path/solution.cpp) |
 | 2248C | [Maximize the Score](https://codeforces.com/contest/2248/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2248/C%20-%20Maximize%20the%20Score/solution.cpp) |
 | 2260D | [Signs of Prefix Sums](https://codeforces.com/contest/2260/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2260/D%20-%20Signs%20of%20Prefix%20Sums/solution.cpp) |
+| 2284C1 | [Disgusting + GCD (Constructive Version)](https://codeforces.com/contest/2284/problem/C1) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2284/C1%20-%20Disgusting%20%2B%20GCD%20(Constructive%20Version)/solution.cpp) |
 
 ### dsu
 
@@ -182,6 +186,7 @@
 | 1690F | [Shifting String](https://codeforces.com/contest/1690/problem/F) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/1690/F%20-%20Shifting%20String/solution.cpp) |
 | 1695C | [Zero Path](https://codeforces.com/contest/1695/problem/C) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/1695/C%20-%20Zero%20Path/solution.cpp) |
 | 2014E | [Rendez-vous de Marian et Robin](https://codeforces.com/contest/2014/problem/E) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2014/E%20-%20Rendez-vous%20de%20Marian%20et%20Robin/solution.cpp) |
+| 2284C1 | [Disgusting + GCD (Constructive Version)](https://codeforces.com/contest/2284/problem/C1) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2284/C1%20-%20Disgusting%20%2B%20GCD%20(Constructive%20Version)/solution.cpp) |
 
 ### greedy
 
@@ -201,6 +206,7 @@
 | 2269A | [SauSaGe Bank](https://codeforces.com/contest/2269/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2269/A%20-%20SauSaGe%20Bank/solution.cpp) |
 | 2276A | [Perfect Sandwiches](https://codeforces.com/contest/2276/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2276/A%20-%20Perfect%20Sandwiches/solution.cpp) |
 | 2278E | [Swap and Negate](https://codeforces.com/contest/2278/problem/E) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2278/E%20-%20Swap%20and%20Negate/solution.cpp) |
+| 2284C1 | [Disgusting + GCD (Constructive Version)](https://codeforces.com/contest/2284/problem/C1) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2284/C1%20-%20Disgusting%20%2B%20GCD%20(Constructive%20Version)/solution.cpp) |
 
 ### hashing
 
@@ -246,6 +252,7 @@
 | 2269A | [SauSaGe Bank](https://codeforces.com/contest/2269/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2269/A%20-%20SauSaGe%20Bank/solution.cpp) |
 | 2276A | [Perfect Sandwiches](https://codeforces.com/contest/2276/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2276/A%20-%20Perfect%20Sandwiches/solution.cpp) |
 | 2276C | [Subarrays](https://codeforces.com/contest/2276/problem/C) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2276/C%20-%20Subarrays/solution.cpp) |
+| 2284C1 | [Disgusting + GCD (Constructive Version)](https://codeforces.com/contest/2284/problem/C1) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2284/C1%20-%20Disgusting%20%2B%20GCD%20(Constructive%20Version)/solution.cpp) |
 
 ### matrices
 
@@ -261,6 +268,7 @@
 | 1731C | [Even Subarrays](https://codeforces.com/contest/1731/problem/C) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/1731/C%20-%20Even%20Subarrays/solution.cpp) |
 | 2253A | [The Best Card](https://codeforces.com/contest/2253/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2253/A%20-%20The%20Best%20Card/solution.cpp) |
 | 2276C | [Subarrays](https://codeforces.com/contest/2276/problem/C) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2276/C%20-%20Subarrays/solution.cpp) |
+| 2284C1 | [Disgusting + GCD (Constructive Version)](https://codeforces.com/contest/2284/problem/C1) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/AtikshSingh007/CP/blob/HEAD/2284/C1%20-%20Disgusting%20%2B%20GCD%20(Constructive%20Version)/solution.cpp) |
 
 ### shortest paths
 
